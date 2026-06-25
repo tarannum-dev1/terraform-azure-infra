@@ -28,3 +28,16 @@ variable "vnet_address_space" {
   description = "Address space for the Virtual Network."
   type        = list(string)
 }
+#################################################
+# Subnet
+#################################################
+
+variable "subnet_name" {
+  description = "Name of the subnet."
+  type        = string
+}
+
+variable "subnet_address_prefixes" {
+  description = "Address prefix for the subnet."
+  type        = list(string)
+}
