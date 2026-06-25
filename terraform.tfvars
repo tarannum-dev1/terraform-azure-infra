@@ -10,3 +10,9 @@ resource_group_name = "rg-contoso-dev-001"
 
 vnet_name          = "vnet-contoso-dev-001"
 vnet_address_space = ["10.0.0.0/16"]
+#################################################
+# Subnet
+#################################################
+
+subnet_name             = "snet-contoso-dev-001"
+subnet_address_prefixes = ["10.0.1.0/24"]
