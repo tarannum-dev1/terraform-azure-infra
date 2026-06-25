@@ -3,9 +3,8 @@
 #################################################
 
 variable "location" {
-  description = "The Azure region where resources will be deployed."
+  description = "Azure region where resources will be deployed."
   type        = string
-  default     = "Central India"
 }
 
 #################################################
@@ -15,5 +14,4 @@ variable "location" {
 variable "resource_group_name" {
   description = "Name of the Azure Resource Group."
   type        = string
-  default     = "rg-contoso-dev-001"
 }
