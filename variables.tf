@@ -65,3 +65,21 @@ variable "nic_name" {
   description = "Name of the Network Interface."
   type        = string
 }
+#################################################
+# Linux Virtual Machine
+#################################################
+
+variable "vm_name" {
+  description = "Name of the Linux Virtual Machine."
+  type        = string
+}
+
+variable "vm_size" {
+  description = "Azure VM Size."
+  type        = string
+}
+
+variable "admin_username" {
+  description = "Administrator username."
+  type        = string
+}
