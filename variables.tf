@@ -41,3 +41,11 @@ variable "subnet_address_prefixes" {
   description = "Address prefix for the subnet."
   type        = list(string)
 }
+#################################################
+# Network Security Group
+#################################################
+
+variable "nsg_name" {
+  description = "Name of the Network Security Group."
+  type        = string
+}
