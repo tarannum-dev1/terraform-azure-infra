@@ -38,3 +38,5 @@ nic_name = "nic-contoso-web-001"
 vm_name        = "vm-contoso-web-001"
 vm_size        = "Standard_B1s"
 admin_username = "azureadmin"
+
+public_key_path = "~/.ssh/id_rsa.pub"
