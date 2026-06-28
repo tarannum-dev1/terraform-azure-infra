@@ -57,3 +57,11 @@ variable "public_ip_name" {
   description = "Name of the Public IP."
   type        = string
 }
+#################################################
+# Network Interface
+#################################################
+
+variable "nic_name" {
+  description = "Name of the Network Interface."
+  type        = string
+}
