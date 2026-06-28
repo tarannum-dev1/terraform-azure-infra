@@ -49,3 +49,11 @@ variable "nsg_name" {
   description = "Name of the Network Security Group."
   type        = string
 }
+#################################################
+# Public IP
+#################################################
+
+variable "public_ip_name" {
+  description = "Name of the Public IP."
+  type        = string
+}
