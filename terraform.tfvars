@@ -31,3 +31,10 @@ public_ip_name = "pip-contoso-web-001"
 #################################################
 
 nic_name = "nic-contoso-web-001"
+#################################################
+# Linux Virtual Machine
+#################################################
+
+vm_name        = "vm-contoso-web-001"
+vm_size        = "Standard_B1s"
+admin_username = "azureadmin"
